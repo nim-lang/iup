@@ -6,7 +6,7 @@ The wrapper was originally part of the standard library. This project was create
 update it to the latest version of IUP and integrate it with nimble.
 
 ## Versioning
-This library uses [semnatic versioning](http://semver.org/) with a small modification. The Major and Minor versions of this library
+This library uses [semantic versioning](http://semver.org/) with a small modification. The Major and Minor versions of this library
 will always sync with the major and minor version of IUP. If you are using version 3.16 of IUP then you would use version 3.16.x of this
 wrapper. 
 
