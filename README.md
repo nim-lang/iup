@@ -10,13 +10,13 @@ This library uses [semantic versioning](http://semver.org/) with a small modific
 will always sync with the major and minor version of IUP. If you are using version 3.16 of IUP then you would use version 3.16.x of this
 wrapper. 
 
-## Instal
+## Install
 Install nim and nimble
 
 	nimble install iup
 
 ## Documentation
-Please visit the [IUP documentation](http://webserver2.tecgraf.puc-rio.br/iup/) for details about the toolkit
+Please visit the [IUP documentation](http://webserver2.tecgraf.puc-rio.br/iup/) for details about the toolkit.
 
 ## Examples
 A few nim-specific examples can be found in the `examples/` directory. For more comprehensive examples visit the 
