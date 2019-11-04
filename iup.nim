@@ -37,6 +37,7 @@
 
 when defined(windows):
   const dllname = "iup(|30|27|26|25|24).dll"
+  const dllname_img = "iupimglib(|30|27|26|25|24).dll"
 elif defined(macosx):
   const dllname = "libiup(|3.0|2.7|2.6|2.5|2.4).dylib"
 else:
@@ -99,7 +100,7 @@ proc getParamv*(title: cstring, action: Iparamcb, userData: pointer,
 proc open*(argc: ptr cint, argv: ptr cstringArray): cint {.
   importc: "IupOpen", cdecl, dynlib: dllname.}
 proc close*() {.importc: "IupClose", cdecl, dynlib: dllname.}
-proc imageLibOpen*() {.importc: "IupImageLibOpen", cdecl, dynlib: dllname.}
+proc imageLibOpen*() {.importc: "IupImageLibOpen", cdecl, dynlib: dllname_img.}
 
 proc mainLoop*(): cint {.importc: "IupMainLoop", cdecl, dynlib: dllname,
                          discardable.}
