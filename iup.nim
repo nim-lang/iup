@@ -40,10 +40,10 @@ when defined(windows):
   const dllname_img = "iupimglib(|30|27|26|25|24).dll"
 elif defined(macosx):
   const dllname = "libiup(|3.0|2.7|2.6|2.5|2.4).dylib"
-  const dllname_img = "libiupimglib(|30|27|26|25|24).dylib"
+  const dllname_img = "libiupimglib(|3.0|2.7|2.6|2.5|2.4).dylib"
 else:
   const dllname = "libiup(|3.0|2.7|2.6|2.5|2.4).so(|.1)"
-  const dllname_img = "libiupimglib(|30|27|26|25|24).so(|.1)"
+  const dllname_img = "libiupimglib(|3.0|2.7|2.6|2.5|2.4).so(|.1)"
 
 const
   IUP_NAME* = "IUP - Portable User Interface"
